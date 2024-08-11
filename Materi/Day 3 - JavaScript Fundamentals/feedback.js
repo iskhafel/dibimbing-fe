@@ -43,12 +43,6 @@ let x = 10;
 x += 3;
 console.log(x);
 
-// total = 0
-// for (let index = 0; index < x; index++) {
-//     total += 2
-// }
-// console.log(total)
-
 let index = 0;
 let total = 0;
 

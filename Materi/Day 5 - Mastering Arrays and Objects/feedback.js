@@ -1,8 +1,5 @@
 let arr1 = ["string", false, 12345, { key1: "1234", key2: 123 }, [1, 2, 3]];
 
-// console.log(arr1[3].key2)
-// console.log(arr1[4][0])
-
 //push = menambahkan data di index terakhir
 //pop = menghapus data di index terakhir
 
