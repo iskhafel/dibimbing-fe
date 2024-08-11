@@ -26,6 +26,7 @@ while (true) {
 // Kamu bisa mengerjakan soal no 2 dibawah sini
 wordCount = user.name.trim().split(/\s+/).length;
 
+
 // Kamu bisa mengerjakan soal no 3 dibawah sini
 let userInputBirthMonth = prompt("Masukkan hari apa kamu lahir!");
 

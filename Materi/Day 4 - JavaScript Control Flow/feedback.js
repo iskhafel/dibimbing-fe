@@ -1,11 +1,3 @@
-// let belanja = 500000;
-
-// if (belanja > 100000) {
-//   console.log("Selamat anda dapat piring cantik");
-// } else {
-//   console.log("Terimakasi sudah belanja");
-// }
-
 // switch (belanja) {
 //   case 500000:
 //     console.log("Selamat anda dapat piring cantik");
