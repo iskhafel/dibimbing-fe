@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-image: url("img/web-bg.jpg");
+  /* background-repeat: no-repeat;
+  background-position: center; */
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  /* margin-top: 4rem; */
+  padding: 6rem 0;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+header h1 {
+  font-size: 3rem;
+  color: #31509e;
+}
+
+header img {
+  width: 80px;
+}
+
+button {
+  cursor: pointer;
+}
+
+.budgets {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+.budget_card {
+  background-color: #31509e;
+  padding: 1rem;
+  border-radius: 1.5rem;
+  color: white;
+}
+
+.budget_name {
+  font-size: 1.25rem;
+}
+
+.budget_amount {
+  font-size: 2rem;
+  font-weight: 800;
+}
+
+.add_budget_btn {
+  height: 6rem;
+  border-radius: 1.5rem;
+  background-color: transparent;
+  font-size: 3rem;
+  font-weight: bold;
+  border: 2px dashed black;
+  color: black;
+}
+
+@media (max-width: 768px) {
+  .budgets {
+    padding: 1rem;
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+  }
+}
