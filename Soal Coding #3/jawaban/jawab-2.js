@@ -14,14 +14,14 @@ let array2d = [
 let newArr = [];
 for (let i = 0; i < array2d.length; i++) {
   //   console.log(`${i} = `, array2d[i]);
-  
+
   // cara 1
   //   for (let j = 0; j < array2d[i].length; j++) {
   //     newArr.push(array2d[i][j]);
   //   }
 
   // cara 2
-  newArr.push(...array2d[i])
+  newArr.push(...array2d[i]);
 }
 
 console.log(newArr); // output: [1,2,3,4,5,6,7,8,9]
