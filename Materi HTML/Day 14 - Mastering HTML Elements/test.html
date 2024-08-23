@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <section>
+      <form>
+        <label for="description">description</label><br />
+        <textarea name="description" id="description"></textarea>
+      </form>
+    </section>
+
+    <section>
+      <form>
+        <label for="class">Select your class</label><br />
+        <select name="class" id="class">
+          <option value="" disabled>select job</option>
+          <option value="archer">archer</option>
+          <option value="mage">mage</option>
+          <option value="warrior">warrior</option>
+        </select>
+      </form>
+    </section>
+
+    <section>
+        <form>
+            <br />
+            <label>Full Name</label><br />
+            <input
+              type="text"
+              placeholder="Masukan nama"
+            />
+            <br /><br>
+            <label>Address</label><br>
+            <textarea rows="10"></textarea><br><br>
+
+            <label>Gender</label><br>
+            <input type="radio" value="male" name="gender" id="male" />
+            <label for="male">Male</label><br>
+            <input type="radio" value="female" name="gender" id="female" />
+            <label for="female">Female</label><br><br>
+
+            <label for="">Choose your pet</label><br>
+            <select>
+                <option value="cat">cat</option>
+                <option value="dog">dog</option>
+                <option value="fish">fish</option>
+            </select><br><br>
+            <input type="button" value="Submit!"/>
+    </section>
+
+  </body>
+</html>
