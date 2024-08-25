@@ -1,0 +1,67 @@
+.discount > span {
+  color: red;
+  font-weight: bold;
+  font-size: larger;
+}
+
+.content {
+  /* border-width: 3px;
+  border-style: solid;
+  border-color: red; */
+  border: 3px solid red;
+  border-radius: 10px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.challenge,
+.challenge2 {
+  width: 300px;
+  height: 120px;
+  border: 5px solid black;
+  margin: 10px 5px 20px 10px;
+  padding: 20px 5px 30px 10px;
+}
+
+.challenge2 {
+  height: 70px;
+}
+
+.linkedin {
+  background-color: #1a4870;
+  color: white;
+  border: 5px solid #1a4870;
+  border-radius: 5px;
+  font-size: 64px;
+  font-weight: bold;
+  width: 72px;
+  height: 68px;
+  text-align: center;
+}
+
+.facebook {
+  background-color: #1e2a5e;
+  color: white;
+  border: 5px solid #1e2a5e;
+  border-radius: 50%;
+  font-size: 64px;
+  font-weight: bold;
+  width: 72px;
+  height: 68px;
+  text-align: center;
+}
+
+.instagram {
+  color: black;
+  border: 6px solid black;
+  border-radius: 30%;
+  font-size: 64px;
+  font-weight: bold;
+  width: 72px;
+  height: 68px;
+  text-align: center;
+}
