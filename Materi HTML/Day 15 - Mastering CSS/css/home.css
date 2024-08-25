@@ -1,0 +1,11 @@
+label {
+  font-weight: bold;
+}
+
+.field-group {
+  margin-bottom: 2vh;
+}
+
+form {
+  font-family: "Courier New", Courier, monospace;
+}
