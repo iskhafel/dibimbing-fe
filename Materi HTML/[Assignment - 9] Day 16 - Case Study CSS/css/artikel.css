@@ -58,6 +58,13 @@ header ul li {
   margin-right: 208px;
 }
 
+.main-article {
+  display: flex;
+  justify-content: center;
+  background-image: url(../assets/bg-img/c375d40d9c8847f117acf79668c5c01c.jpg);
+  background-size: cover;
+}
+
 section td {
   vertical-align: top;
   padding: 10px;
