@@ -58,6 +58,12 @@ header ul li {
   margin-right: 208px;
 }
 
+.main-homepage {
+  background: rgba(0, 0, 0, 0.08);
+  display: flex;
+  justify-content: center;
+}
+
 .title {
   font-weight: 700;
   font-size: 12px;
@@ -84,8 +90,24 @@ main table td {
   vertical-align: top;
 }
 
+.section-homepage {
+  display: flex;
+  justify-content: center;
+}
+
 section table {
   padding: 80px 208px 80px 208px;
+}
+
+.extra-font {
+  font-family: "Nunito", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 12px;
+  line-height: 18px;
+  color: rgba(1, 159, 196, 1);
+  text-align: center;
 }
 
 .new-description {
